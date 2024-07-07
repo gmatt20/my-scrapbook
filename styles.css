@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    padding: 40px 120px;
+}
+nav, ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    gap: 30px;
+}
+.landing-img{
+    max-width: 100VW;
+}
+.land-img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links-container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.cali{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cali-img{
+    max-width: 50vw;
+}
