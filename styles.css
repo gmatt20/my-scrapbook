@@ -4,24 +4,54 @@
     box-sizing: border-box;
 }
 html{
-    padding: 40px 120px;
+    padding: 10px 120px;
+}
+nav{
+    margin: 50px 0;
 }
 nav, ul{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 ul{
     list-style: none;
     gap: 30px;
 }
-.landing-img{
-    max-width: 100VW;
-}
-.land-img-container{
+.menu{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.logo{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+.landing-img{
+    max-width: 100VW;
+    filter: brightness(50%);
+}
+
+.land-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    font-size: 3rem;
+}
+
 .links-container{
     display: flex;
     flex-direction: column-reverse;
