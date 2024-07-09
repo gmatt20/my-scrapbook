@@ -77,3 +77,6 @@ ul{
 .cali-img{
     max-width: 50vw;
 }
+.photo-gallery > img{
+    display: inline-grid;
+}
