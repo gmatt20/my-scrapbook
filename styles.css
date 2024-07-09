@@ -5,6 +5,7 @@
 }
 html{
     padding: 10px 120px;
+    font-family: Roboto, sans-serif;
 }
 nav{
     margin: 50px 0;
@@ -24,7 +25,7 @@ ul{
     justify-content: center;
 }
 .logo{
-    font-family: "Righteous", sans-serif;
+    font-family: "Righteous", roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
@@ -51,11 +52,22 @@ ul{
     font-family: 'Righteous', sans-serif;
     font-size: 3rem;
 }
-
 .links-container{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
+}
+.links-container > a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 500px;
+    margin: 30px;
+    padding: 10px;
+    background-color: #414a4c;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
 }
 .cali{
     display: flex;
